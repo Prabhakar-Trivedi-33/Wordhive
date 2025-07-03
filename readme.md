@@ -2,6 +2,12 @@
 
 A modern, responsive online bookstore built with vanilla HTML, CSS, and JavaScript. Discover your next great read with an intuitive interface and smooth user experience.
 
+# Team Members
+Prabhakar Trivedi- PSIT
+Pradyumn Singh Yadav-PSIT
+MOHD Hassaan Usmani
+MOHD Nusair
+
 ## ✨ Features
 
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
