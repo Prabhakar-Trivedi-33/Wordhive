@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordHive - Discover Your Next Great Read</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">WordHive</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="user-actions">
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search for books, authors..." id="searchInput">
+                </div>
+                <button class="cart-btn" id="cartBtn">
+                    Cart 🛒
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Discover Your Next Great Read</h1>
+                <p>Explore thousands of books from every genre. Personalized recommendations just for you. Free shipping on orders over $25.</p>
+                <button class="cta-btn" onclick="scrollToSection('featured')">Shop Now</button>
+            </div>
+        </section>
+
+        <section class="categories" id="categories">
+            <h2 class="section-title">Browse by Category</h2>
+            <div class="category-grid">
+                <div class="category-card" onclick="filterBooks('fiction')">
+                    <span class="category-icon">📖</span>
+                    <h3>Fiction</h3>
+                    <p>Escape into amazing stories</p>
+                </div>
+                <div class="category-card" onclick="filterBooks('mystery')">
+                    <span class="category-icon">🔍</span>
+                    <h3>Mystery</h3>
+                    <p>Solve thrilling puzzles</p>
+                </div>
+                <div class="category-card" onclick="filterBooks('romance')">
+                    <span class="category-icon">💕</span>
+                    <h3>Romance</h3>
+                    <p>Feel the love</p>
+                </div>
+                <div class="category-card" onclick="filterBooks('scifi')">
+                    <span class="category-icon">🚀</span>
+                    <h3>Sci-Fi</h3>
+                    <p>Explore the future</p>
+                </div>
+                <div class="category-card" onclick="filterBooks('biography')">
+                    <span class="category-icon">👤</span>
+                    <h3>Biography</h3>
+                    <p>Real life stories</p>
+                </div>
+                <div class="category-card" onclick="filterBooks('selfhelp')">
+                    <span class="category-icon">💪</span>
+                    <h3>Self-Help</h3>
+                    <p>Improve yourself</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-books" id="featured">
+            <h2 class="section-title">Featured Books</h2>
+            <div class="books-grid" id="booksGrid">
+                <!-- Books will be loaded here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About WordHive</h3>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Social Media</a></li>
+                        <li><a href="#">Book Club</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p>&copy; 2025 WordHive. All rights reserved. Made with ❤️ for book lovers.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
