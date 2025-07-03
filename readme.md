@@ -14,15 +14,9 @@ A modern, responsive online bookstore built with vanilla HTML, CSS, and JavaScri
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-username.github.io/wordhive-bookstore)
+[View Live Demo][(https://your-username.github.io/wordhive-bookstore)](https://claude.ai/public/artifacts/9aa605f6-edae-4d7d-b52e-78f1d9050f17)
 
-## 📱 Screenshots
 
-### Desktop View
-![Desktop Screenshot](screenshots/desktop.png)
-
-### Mobile View
-![Mobile Screenshot](screenshots/mobile.png)
 
 ## 🛠️ Technologies Used
 
